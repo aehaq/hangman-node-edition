@@ -13,6 +13,7 @@ var Word = function(arg) {
             var chara = this.characters[i];
             string += chara.display();
         }
+        string += "\n"
         return string
     }
     this.check = function(guess) {

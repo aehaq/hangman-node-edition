@@ -7,9 +7,9 @@ var Letter = function(chara) {
     };
     this.display = function() {
         if (this.guessed) {
-            return this.chara
+            return this.chara + " "
         } else {
-            return "_"
+            return "_ "
         }
     };
     this.verify = function(guess) {
