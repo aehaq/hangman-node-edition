@@ -64,19 +64,19 @@ var Word = function(arg) {
 module.exports = Word;
 ```
 This constructor function, though only a small portion of the total code, served as the backbone for this application. This function and the code linking it to other spreadsheets is the entirety of the Word.js javascript file, and is vital in pretty much all of the logic used throughout the game. The main things this function is responsible for are as follows:
-- Storing the answer to the hangman.
+- Storing the answer to the hangman game.
 - Splitting the word into individual characters and retaining this list as an array.
-- verifying t
 - Storing each of those letters as individual objects by calling the Letter constructor.
 - Taking a guessed character input and checking if it against the letters which exist within the object.
 - Displaying the word in it's current gamestate based off of whether or not each object stored within it has already been guessed.
 
-
 # Learning Points
-- Constructors
-- Object functions
-- Recursive functions
-- Inquirer.js
+- Learning how to use constructors to create objects with a variety of keys and methods.
+- Cutting down on clutter by calling methods on objects created with imported constructors.
+- Understanding how to use multiple constructors on multiple files to handle the creation of complex objects with complex functions.
+- Using object functions to handle a large number of processes at once.
+- Creating Recursive functions which call upon themselves until certain conditions are meant in order to create an ongoing use state.
+- Implementing Inquirer.js to create an easy-to-use interactive application in terminal without the implementation of a front end.
 
 # Author 
 Azfar Haq - [GitHub](https://github.com/aehaq)
